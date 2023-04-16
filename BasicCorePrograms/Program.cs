@@ -13,7 +13,7 @@ namespace BasicCsharpProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1.QuotientAndReminder\n2.SwapNumbers\n3.PrimeFactorization\n4.HarmonicNumber\n5.FlipCoin\n6.EvenOdd\n7.VowelConsonent\n8.Leapyear\n9.Powerof2");
+            Console.WriteLine("1.QuotientAndReminder\n2.SwapNumbers\n3.PrimeFactorization\n4.HarmonicNumber\n5.FlipCoin\n6.EvenOdd\n7.VowelConsonent\n8.Leapyear\n9.Powerof2\n10.LargestNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -66,7 +66,11 @@ namespace BasicCsharpProgram
                     Powerof2 powerof = new Powerof2();
                     powerof.powOf2();
                     break;
+                case 10:
+                    LargestNumber largest = new LargestNumber();
+                    largest.largeNum();
 
+                    break;
             }
         }
     }

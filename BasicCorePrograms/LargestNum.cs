@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace BasicCorePrograms
 {
-    internal class LargestNum
-    {
         internal class LargestNumber
         {
             public void largeNum()
@@ -38,4 +36,5 @@ namespace BasicCorePrograms
             }
         }
     }
-}
+
+    
