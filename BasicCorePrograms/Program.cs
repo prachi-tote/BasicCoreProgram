@@ -13,7 +13,7 @@ namespace BasicCsharpProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1.QuotientAndReminder\n2.SwapNumbers\n3.PrimeFactorization\n4.HarmonicNumber\n5.");
+            Console.WriteLine("1.QuotientAndReminder\n2.SwapNumbers\n3.PrimeFactorization\n4.HarmonicNumber\n5.FlipCoin");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -47,7 +47,7 @@ namespace BasicCsharpProgram
 
                 case 5:
                     FlipCoin flip = new FlipCoin();
-                    flip.FlipCoin();
+                    flip.flipCoin();
                     break;
 
                 case 6:
@@ -60,18 +60,18 @@ namespace BasicCsharpProgram
                     VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
                     vowelOrConsonant.alphabet();
                     break;
-                case 8:
-                    LargestNum largestNumber = new LargestNum();
-                    largestNumber.LargeNum();
-                    break;
-                 case  9:
-                    Powerof2 powerOf2 = new Powerof2();
-                    powerOf2.powOf2();
-                    break;
-                 case 10:
-                    Leapyear leapyear = new Leapyear();
-                    leapyear.leapyear();
-                    break;
+                //case 8:
+                //    LargestNum largestNumber = new LargestNum();
+                //    largestNumber.LargeNum();
+                //    break;
+                // case  9:
+                //    Powerof2 powerOf2 = new Powerof2();
+                //    powerOf2.powOf2();
+                //    break;
+                // case 10:
+                //    Leapyear leapyear = new Leapyear();
+                //    leapyear.leapyear();
+                //    break;
   
 }
         }
