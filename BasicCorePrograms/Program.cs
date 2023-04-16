@@ -1,4 +1,4 @@
-using BasicCorePrograms;
+﻿using BasicCorePrograms;
 using System;
 
 namespace BasicCsharpProgram
@@ -7,13 +7,21 @@ namespace BasicCsharpProgram
     {
         static void Main(string[] args)
         {
-             Console.WriteLine("Welcome to Basic Core Program");
-            Console.WriteLine("Program of Prime Factorization");
-            Console.WriteLine("Enter number to get primeFactor");
-            int n = Convert.ToInt32(Console.ReadLine());
-            PrimeFactorization.primeFactors(n);
+            Console.WriteLine("Welcome to Basic Core Program");
+            Console.WriteLine("Welcome to QuotientReminder Program");
+            Console.WriteLine("Enter divisor");
+            int Divisor = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter divident");
+            int Divident = Convert.ToInt32(Console.ReadLine());
+            QuotientAndReminder.QuotientReminder(Divisor, Divident);
             Console.ReadLine();
         }
     }
 }
+               
+        
+
+
+
+
 
