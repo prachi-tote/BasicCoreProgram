@@ -8,9 +8,9 @@ namespace BasicCsharpProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Program");
-            Console.WriteLine("Program of flip Coin");
-            FlipCoin flip = new FlipCoin();
-            flip.flipCoin();
+            Console.WriteLine("Program of LeapYear");
+            Leapyear leapyear = new Leapyear();
+            leapyear.Year();
         }
     }
 }
