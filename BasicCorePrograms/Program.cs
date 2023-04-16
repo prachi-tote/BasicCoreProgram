@@ -8,9 +8,12 @@ namespace BasicCsharpProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Program");
-            Console.WriteLine("Program of Power of 2");
-            Powerof2 powerof = new Powerof2();
-            powerof.powOf2();
+
+
+            Console.WriteLine("Program of LeapYear");
+            Leapyear leapyear = new Leapyear();
+            leapyear.Year();
+
         }
     }
 }
