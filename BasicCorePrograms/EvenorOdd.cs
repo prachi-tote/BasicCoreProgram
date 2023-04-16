@@ -12,11 +12,11 @@ namespace BasicCorePrograms
         {
             if (number % 2 == 0)
             {
-                return "Given number is even";
+                return "Given number is Even";
             }
             else
             {
-                return "Given number is odd";
+                return "Given number is Odd";
             }
         }
     }
