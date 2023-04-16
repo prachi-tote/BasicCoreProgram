@@ -10,8 +10,7 @@ namespace BasicCorePrograms
     {
         public static void QuotientReminder(int Divident, int Divisor)
         {
-            //  Divident = Convert.ToInt32(Console.ReadLine());
-            // Divisor =  Convert.ToInt32(Console.ReadLine());
+            
             int quotient = Divident / Divisor;
             int remainder = Divident % Divisor;
             Console.WriteLine("Dividend:{0} Divisor:{1}", Divident, Divisor);

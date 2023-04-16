@@ -18,8 +18,6 @@ namespace BasicCsharpProgram
             switch (option)
             {
                 case 1:
-
-                    //  QuotientAndReminder.QuotientReminder();
                     Console.WriteLine("Enter divisor");
                     int Divisor = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Enter divident");
