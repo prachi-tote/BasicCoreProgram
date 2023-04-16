@@ -8,15 +8,17 @@ namespace BasicCorePrograms
 {
     internal class Leapyear
     {
-          
-        class Program
+        public void Year()
         {
-            static void leapyear()
+            Console.WriteLine("Enter Year : ");
+            int year = int.Parse(Console.ReadLine());
+            if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
             {
-                
-                Console.WriteLine("Checking Leap Year or not");
-                
-                
+                Console.WriteLine($" {year} is a Leap Year");
+            }
+            else
+            {
+                Console.WriteLine($" {year} is not a Leap Year");
             }
         }
     }
