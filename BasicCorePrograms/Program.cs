@@ -8,7 +8,7 @@ namespace BasicCsharpProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Program");
-            Console.WriteLine("Program of flip Coin");
+            Console.WriteLine("Program of Leap Year");
             Leapyear leapyear = new Leapyear();
             leapyear.Year();
         }
