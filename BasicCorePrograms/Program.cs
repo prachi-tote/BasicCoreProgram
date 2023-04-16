@@ -1,4 +1,4 @@
-﻿using BasicCorePrograms;
+using BasicCorePrograms;
 using System;
 
 namespace BasicCsharpProgram
@@ -7,11 +7,13 @@ namespace BasicCsharpProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Program of Harmonic Number");
-            HarmonicNumber harmonicNumber = new HarmonicNumber();
-            harmonicNumber.HarmonicNum();
+             Console.WriteLine("Welcome to Basic Core Program");
+            Console.WriteLine("Program of Prime Factorization");
+            Console.WriteLine("Enter number to get primeFactor");
+            int n = Convert.ToInt32(Console.ReadLine());
+            PrimeFactorization.primeFactors(n);
+            Console.ReadLine();
         }
     }
 }
 
-  
